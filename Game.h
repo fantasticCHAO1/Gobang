@@ -13,11 +13,12 @@ class Game {
         Game(){
             mainwidow=new MainWindow;
         };
-        
+        ~Game(){
+            delete mainwidow;
+        };
         
     private:
         
-        ~Game(){};
         Game(const Game& that){
             that;
         };

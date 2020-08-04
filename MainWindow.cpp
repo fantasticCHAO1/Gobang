@@ -12,7 +12,7 @@ MainWindow::MainWindow()
 }
 MainWindow::~MainWindow()
 {
-    //delete chessboard;
+    delete chessboard;
 }
 void MainWindow::init()
 {
